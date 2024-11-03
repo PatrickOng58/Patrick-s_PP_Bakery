@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="css/flaticon.min.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/ionicons-core.min.css">
+    <link rel="stylesheet" href="css/ionicons-core.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title> PP Bakery 🥐 🥖 🍞</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <!-- Navigation starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/PP_Bakery_Website_Logo_news.png" alt="PP_Bakery_Logo">
+            </a>
+            <button class="navbar-toggler" type="button" id="menuIcon">
+                <span class="fas fa-bars"></span>
+            </button>
+            <div class="navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="team.html" class="nav-link">Our Team</a></li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Our Breads</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sourdough.html">Sourdough</a></li>
+                            <li><a class="dropdown-item" href="wholegrain.html">Whole Grain Series</a></li>
+                            <li><a class="dropdown-item  active" href="sweetpastries.html">Sweet Pastries</a></li>
+                            <li><a class="dropdown-item" href="specialtyItems.html">Specialty Items</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="allmenu.html">All Breads</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="location.html" class="nav-link">Find Us</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item cta"><a href="order.html" class="nav-link">Special Orders</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navigation ends -->
+
+    <!-- menu section starts -->
+    <main class="ftco-section" id="menu">
+        <div class="container-fluid px-4">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <div class="menu-heading"><span>Sweet</span> Pastries</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 menu-wrap">
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Almond Croissant', 'This buttery croissant is filled with a rich almond cream made from ground almonds, butter, and a touch of vanilla. After baking to golden perfection, it’s topped with a dusting of powdered sugar and slivered almonds for added crunch. The flaky layers give way to a sweet, nutty filling, creating a satisfying contrast between the crisp exterior and the creamy center.','img/almond-croissant.png')">
+                        <div class="menu-img img" style="background-image: url(img/almond-croissant.png);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Almond Croissant</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM11.90</span>
+                                </div>
+                            </div>
+                            <p><span>Flaky pastry with rich almond filling and almonds.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Fruit Danish', 'A delicate pastry made with a laminated dough that is light and buttery, topped with seasonal fresh fruits like berries, peaches, or apples. The center is filled with a creamy custard or sweet cream cheese, providing a rich base for the juicy, tangy fruit. Finished with a light glaze, it has a perfect balance of sweetness and acidity, making it a refreshing treat.','img/Fruit-Danish.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/Fruit-Danish.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Fruit Danish</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM10.90</span>
+                                </div>
+                            </div>
+                            <p><span>Buttery pastry topped with fresh fruits and custard.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Cinnamon Roll', 'Made with soft, pillowy dough swirled with a blend of cinnamon, brown sugar, and butter, this roll is baked until golden and topped with a rich cream cheese glaze. The cinnamon filling melts into the layers, creating a gooey, spiced center. Each bite delivers a warm, comforting flavor, perfect for enjoying with a cup of coffee.','img/cinnamon-roll.png')">
+                        <div class="menu-img img" style="background-image: url(img/cinnamon-roll.png);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Cinnamon Roll</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM14.90</span>
+                                </div>
+                            </div>
+                            <p><span>Soft dough with cinnamon swirl, drizzled with icing.</span></p>
+                            <p class="notavailability"> ● Currently Unavailable</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 menu-wrap">
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Pain au Chocolat', 'This classic French pastry features a flaky, buttery dough wrapped around rich, dark chocolate batons. As it bakes, the layers become golden and crisp, while the chocolate melts into a luscious, velvety filling. The combination of the crisp exterior and the smooth, bittersweet chocolate makes for a decadent and satisfying bite.','img/Pain-au-chocolate.png')">
+                        <div class="menu-img img" style="background-image: url(img/Pain-au-chocolate.png);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Pain au Chocolate</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM13.90</span>
+                                </div>
+                            </div>
+                            <p><span>Flaky pastry with a rich chocolate center.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Cream Cheese Puff', 'A light and airy puff pastry filled with a smooth, tangy cream cheese mixture. The pastry is baked until puffed and golden, creating a crisp shell that contrasts beautifully with the creamy, slightly sweet filling. A light dusting of powdered sugar adds a touch of sweetness, making it an elegant choice for any time of day.','img/cream-cheese-puff.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/cream-cheese-puff.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Cream Cheese Puff</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM12.90</span>
+                                </div>
+                            </div>
+                            <p><span>Light pastry with sweet, creamy cheese filling.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Raspberry Jam Turnover', 'This flaky turnover is filled with homemade raspberry jam, bursting with vibrant, tart-sweet flavor. The buttery pastry encases the jam, creating a tender, golden crust that shatters with each bite. Finished with a light drizzle of icing, this pastry is perfect for those who love a balance of sweet and fruity flavors.','img/jam-turnovers.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/jam-turnovers.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Raspberry Turnover</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM11.90</span>
+                                </div>
+                            </div>
+                            <p><span>Golden pastry filled with tangy raspberry jam.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 menu-wrap">
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Apple Strudel', 'A classic pastry made with thin layers of dough wrapped around a spiced apple filling. The apples are mixed with cinnamon, sugar, and raisins, creating a warm, comforting flavor. The dough bakes to a crisp, golden brown, while the apples become tender and juicy. A sprinkle of powdered sugar on top adds a touch of sweetness to this traditional treat.','img/apple-strudels.png')">
+                        <div class="menu-img img" style="background-image: url(img/apple-strudels.png);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Apple Strudel</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM10.90</span>
+                                </div>
+                            </div>
+                            <p><span>Thin layers with spiced apple filling, lightly powdered.</span></p>
+                            <p class="notavailability"> ● Currently Unavailable</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Lemon Glazed Scone', 'This tender, buttery scone is infused with fresh lemon zest and topped with a tangy lemon glaze. The scone’s crumbly texture pairs perfectly with the bright, citrusy sweetness of the glaze, creating a refreshing balance of flavors. It’s an ideal choice for breakfast or afternoon tea, offering a burst of sunshine in every bite.','img/lemon-glazed-scone.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/lemon-glazed-scone.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Lemon Glazed Scone</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM10.90</span>
+                                </div>
+                            </div>
+                            <p><span>Crumbly scone with a sweet, tangy lemon glaze.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Custard Tart', 'A smooth, creamy custard filling made from eggs, milk, and vanilla is set in a crisp, buttery tart shell. Baked until the custard is just set with a slight wobble, it has a silky texture that contrasts beautifully with the golden, flaky crust. The delicate vanilla flavor and creamy texture make this a timeless dessert, perfect for those who enjoy simple elegance.','img/custard-tart.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/custard-tart.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Custard Tart</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM12.90</span>
+                                </div>
+                            </div>
+                            <p><span>Crisp shell with smooth, sweet vanilla custard.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Popup Menu -->
+        <div id="popup" class="popup" style="display: none;">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+
+                <h3 id="popup-title"></h3>
+
+                <div class="popup-body">
+                    <img id="popup-image" src="" alt="Popup Image">
+                    <p id="popup-description"></p>
+                </div>
+
+
+                <div class="addToCart">
+                    <input type="button" value="Add to Cart" class="add-to-cart">
+                </div>
+            </div>
+        </div>
+
+
+
+        <p class="all-menu-description ftco-animate"><span>Sweet Pastries</span><br>
+            Indulge in the delightful sweetness of our freshly baked pastries, crafted with love and care at PP Bakery.
+            From flaky croissants to rich danishes and creamy custard tarts, each pastry is made using the finest
+            ingredients for that perfect balance of buttery richness and satisfying sweetness. Whether you’re craving a
+            classic treat or looking for a new favorite, our sweet pastries pair perfectly with a cup of coffee or as a
+            delightful snack any time of the day. Visit us for a taste of sweetness, baked fresh every morning!
+        </p>
+    </main>
+    <!-- menu section ends -->
+
+
+
+    <!-- footer section starts -->
+    <section class="ftco-footer ftco-bg-dark ftco-section ftco-animate">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">PP Bakery</h2>
+                        <p>At PP Bakery, we are committed to sustainability in every step of our baking process. We
+                            prioritize using organic ingredients, which are better for both our customers and the
+                            environment. By partnering with local farmers, we ensure that our products are fresh while
+                            supporting our community. Additionally, we strive to minimize food waste through careful
+                            planning and creative use of ingredients, so that every loaf and pastry is made with care
+                            and responsibility.
+                            <br><br><br>
+                            PPBakery@gmail.com
+                            <br>
+                            07-2309 4763
+                        </p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Open Hours</h2>
+                        <ul class="list-unstyled open-hours">
+                            <li class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li>
+                            <li class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li>
+                            <li class="d-flex"><span>Sunday</span><span> 9:00 - 02:00</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Instagram's Posts</h2>
+                        <div class="thumb d-sm-flex">
+                            <a href="#" class="thumb-menu img" style="background-image: url(img/baguette.jpg);"></a>
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(img/bread-making-ultimate-guide_1200x1200.jpg);"></a>
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(img/product2\(test\).jpg);"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Newsletter</h2>
+                        <p>To get Breads and other catalogue every month by subscribing below.</p>
+                        <form action="#" class="subscribe-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-4 text-center"
+                                    placeholder="patrickkkkk@gmail.com">
+                                <input type="submit" value="Subscribe" class="btn-contact submit px-3">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright &copy; 2022-2024 PP Bakery<br>
+        </footer>
+
+        <!-- Wave Animation Divs -->
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </section>
+    <!-- footer section ends -->
+
+
+
+    <!-- scripts-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>

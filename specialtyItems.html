@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="css/flaticon.min.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/ionicons-core.min.css">
+    <link rel="stylesheet" href="css/ionicons-core.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title> PP Bakery 🥐 🥖 🍞</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <!-- Navigation starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/PP_Bakery_Website_Logo_news.png" alt="PP_Bakery_Logo">
+            </a>
+            <button class="navbar-toggler" type="button" id="menuIcon">
+                <span class="fas fa-bars"></span>
+            </button>
+            <div class="navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="team.html" class="nav-link">Our Team</a></li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Our Breads</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sourdough.html">Sourdough</a></li>
+                            <li><a class="dropdown-item" href="wholegrain.html">Whole Grain Series</a></li>
+                            <li><a class="dropdown-item" href="sweetpastries.html">Sweet Pastries</a></li>
+                            <li><a class="dropdown-item active" href="specialtyItems.html">Specialty Items</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="allmenu.html">All Breads</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="location.html" class="nav-link">Find Us</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item cta"><a href="order.html" class="nav-link">Special Orders</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navigation ends -->
+
+
+    <!-- menu section starts -->
+    <main class="ftco-section" id="menu">
+        <div class="container-fluid px-4">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <span class="menu-heading"><span>Specialty</span> Items</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 menu-wrap">
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Pandan Coconut', 'This light and fragrant cake is infused with fresh pandan juice, giving it a vibrant green hue and a natural, floral aroma. The cake layers are paired with a rich coconut cream frosting and coated in desiccated coconut, offering a tender, moist texture with a delightful tropical flavor. Each bite combines the earthy, vanilla-like notes of pandan with the creamy sweetness of coconut.','img/pandan-coconut-loaves.JPG')">
+                        <div class="menu-img img" style="background-image: url(img/pandan-coconut-loaves.JPG);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Pandan Coconut Cake</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM29.90</span>
+                                </div>
+                            </div>
+                            <p><span>Soft, fragrant with pandan and shredded coconut.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Gula Melaka Banana', 'Made with ripe bananas and sweetened with Gula Melaka (palm sugar), this cake is moist, rich, and deeply aromatic. The palm sugar adds a caramel-like depth to the banana flavor, creating a tender crumb with a slightly sticky, toffee-like texture. It’s perfect for those who appreciate the comforting taste of banana bread with a Southeast Asian twist.','img/banana-bread.png')">
+                        <div class="menu-img img" style="background-image: url(img/banana-bread.png);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Melaka Banana Cake</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM29.90</span>
+                                </div>
+                            </div>
+                            <p><span>Sweet, dense, with palm sugar and banana.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Durian Cheese', 'A creamy cheesecake featuring the bold, unique flavor of durian. The velvety filling is made with fresh durian pulp, blended with cream cheese for a smooth, rich texture. The crust is a buttery biscuit base that complements the intense, custard-like durian flavor. This cheesecake is a must-try for durian lovers, balancing the fruit’s sweetness with the richness of the cheese.','img/durian-cheese-loaves.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/durian-cheese-loaves.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Durian Cheese Cake</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM29.90</span>
+                                </div>
+                            </div>
+                            <p><span>Bold, creamy with durian and cheese.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 menu-wrap">
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Kuih Seri Muka', 'A traditional two-layered dessert, with a base of glutinous rice infused with coconut milk, topped with a smooth pandan custard. The bottom layer is sticky and fragrant, while the pandan custard on top is silky and sweet, with a delicate herbal aroma. The contrast of textures and flavors makes it a beloved treat, especially enjoyed during festivals and special occasions.','img/kek-seri-muka.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/kek-seri-muka.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Seri Muka Cake</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM29.90</span>
+                                </div>
+                            </div>
+                            <p><span>Pandan-flavored with glutinous rice layers.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Sarawak Layer Cake', 'Known for its intricate patterns and vibrant colors, this cake is made by baking multiple thin layers one at a time. Each layer is flavored with spices like cinnamon or nutmeg, giving it a warm, aromatic taste. The cake’s tender, slightly chewy texture and the beautiful layered appearance make it as visually stunning as it is delicious.','img/sarawak-layer-cake.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/sarawak-layer-cake.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Sarawak Layer Cake</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM11.90</span>
+                                </div>
+                            </div>
+                            <p><span>Flavors like pandan or chocolate.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Kek Raya', 'This festive cake is popular during Eid celebrations, featuring layers flavored with a variety of ingredients such as chocolate, vanilla, and spices. Each layer is baked slowly for a rich, dense texture, with flavors that evoke warmth and celebration. Often decorated with colorful patterns, this cake is a centerpiece for special gatherings.','img/kek-raya.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/kek-raya.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Kek Raya</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM15.90</span>
+                                </div>
+                            </div>
+                            <p><span>Flavors like pandan, chocolate, and fruit.</span></p>
+                            <p class="notavailability"> ● Currently Unavailable</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 menu-wrap">
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Cempedak Butter Loaf', 'Made with the aromatic, custard-like flesh of the cempedak fruit, this buttery loaf cake has a rich, moist crumb with a sweet, tropical flavor. The cempedak adds a fruity, honeyed note that pairs beautifully with the richness of butter, creating a tender loaf that’s perfect for afternoon tea or as a unique breakfast treat.','img/cempedak-loaf.png')">
+                        <div class="menu-img img" style="background-image: url(img/cempedak-loaf.png);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Cempedak Butter Loaf</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM28.90</span>
+                                </div>
+                            </div>
+                            <p><span>Buttery, moist with chunks of sweet cempedak.</span></p>
+                            <p class="notavailability"> ● Currently Unavailable</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Pineapple Tart', 'A buttery, melt-in-your-mouth pastry filled with sweet, tangy pineapple jam. The dough is tender and rich, while the jam is slow-cooked to concentrate the flavor, resulting in a perfect balance of sweet and tart. Shaped into delicate tarts or rolled into pineapple-filled cookies, these are a favorite during festive seasons.','img/pineapple-tart.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/pineapple-tart.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Pineapple Tart</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM31.90</span>
+                                </div>
+                            </div>
+                            <p><span>Soft, sweet with pineapple filling with a soft outer layer.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Topiaca Cake', 'A chewy, slightly translucent cake made from grated tapioca and coconut milk. The cake has a pleasantly dense, sticky texture with a light sweetness that comes from a touch of sugar and the natural richness of coconut. Often steamed and cut into bite-sized pieces, it’s a traditional treat with a satisfying chewiness and a subtle tropical flavor.','img/kuih-Bingka-Ubi-Kayu.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/kuih-Bingka-Ubi-Kayu.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Topiaca Cake</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM8.90</span>
+                                </div>
+                            </div>
+                            <p><span>this cake is rich and sweet</span></p>
+                            <p class="availability"> ● Available Now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="popup" class="popup" style="display: none;">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+
+                <h3 id="popup-title"></h3>
+
+                <div class="popup-body">
+                    <img id="popup-image" src="" alt="Popup_Image">
+                    <p id="popup-description"></p>
+                </div>
+
+
+                <div class="addToCart">
+                    <input type="button" value="Add to Cart" class="add-to-cart">
+                </div>
+            </div>
+        </div>
+
+        <p class="all-menu-description ftco-animate"><span>Specialty Items</span><br>
+            Discover our unique collection of specialty items, where tradition meets creativity at PP Bakery. From
+            seasonal delights to one-of-a-kind flavors inspired by local Malaysian ingredients, each loaf is carefully
+            crafted to bring you a distinctive taste experience. Our specialty items are perfect for those who love to
+            explore new flavors, whether it’s a festive treat or a limited-time creation. Baked fresh with high-quality
+            ingredients, these specialty items offer a delicious twist on your everyday bread.
+        </p>
+    </main>
+    <!-- menu section ends -->
+
+
+
+    <!-- footer section starts -->
+    <section class="ftco-footer ftco-bg-dark ftco-section ftco-animate">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">PP Bakery</h2>
+                        <p>At PP Bakery, we are committed to sustainability in every step of our baking process. We
+                            prioritize using organic ingredients, which are better for both our customers and the
+                            environment. By partnering with local farmers, we ensure that our products are fresh while
+                            supporting our community. Additionally, we strive to minimize food waste through careful
+                            planning and creative use of ingredients, so that every loaf and pastry is made with care
+                            and responsibility.
+                            <br><br><br>
+                            PPBakery@gmail.com
+                            <br>
+                            07-2309 4763
+                        </p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Open Hours</h2>
+                        <ul class="list-unstyled open-hours">
+                            <li class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li>
+                            <li class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li>
+                            <li class="d-flex"><span>Sunday</span><span> 9:00 - 02:00</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Instagram's Posts</h2>
+                        <div class="thumb d-sm-flex">
+                            <a href="#" class="thumb-menu img" style="background-image: url(img/baguette.jpg);"></a>
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(img/bread-making-ultimate-guide_1200x1200.jpg);"></a>
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(img/product2\(test\).jpg);"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Newsletter</h2>
+                        <p>To get Breads and other catalogue every month by subscribing below.</p>
+                        <form action="#" class="subscribe-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-4 text-center"
+                                    placeholder="patrickkkkk@gmail.com">
+                                <input type="submit" value="Subscribe" class="btn-contact submit px-3">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright &copy; 2022-2024 PP Bakery<br>
+        </footer>
+
+        <!-- Wave Animation Divs -->
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </section>
+    <!-- footer section ends -->
+
+
+
+    <!-- scripts-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="main.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="css/flaticon.min.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/ionicons-core.min.css">
+    <link rel="stylesheet" href="css/ionicons-core.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title> PP Bakery 🥐 🥖 🍞</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <!-- Navigation starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/PP_Bakery_Website_Logo_news.png" alt="PP_Bakery_Logo">
+            </a>
+            <button class="navbar-toggler" type="button" id="menuIcon">
+                <span class="fas fa-bars"></span>
+            </button>
+            <div class="navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="team.html" class="nav-link">Our Team</a></li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Our Breads</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" href="sourdough.html">Sourdough</a></li>
+                            <li><a class="dropdown-item" href="wholegrain.html">Whole Grain Series</a></li>
+                            <li><a class="dropdown-item" href="sweetpastries.html">Sweet Pastries</a></li>
+                            <li><a class="dropdown-item" href="specialtyItems.html">Specialty Items</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="allmenu.html">All Breads</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="location.html" class="nav-link">Find Us</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item cta"><a href="order.html" class="nav-link">Special Orders</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- menu section starts -->
+    <main class="ftco-section" id="menu">
+        <div class="container-fluid px-4">
+            <div class="row justify-content-center mb-2 pb-2">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <div class="menu-heading"><span>Sour</span>dough</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 menu-wrap">
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Classic Sourdough', 'Made with a blend of high-protein bread flour and whole wheat flour, our classic sourdough features a naturally fermented starter that creates a crusty exterior and a tender, chewy crumb. The flavor profile is slightly tangy, with a deep, complex taste developed over a long fermentation process, resulting in rich, earthy notes.','img/classic-sourdough.png')">
+                        <div class="menu-img img" style="background-image: url(img/classic-sourdough.png);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Classic Sourdough</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM29.90</span>
+                                </div>
+                            </div>
+                            <p><span>A tangy flavor and a chewy crust</span></p>
+                            <p class="availability"> ● Available Now</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Olive and Rosemary', 'This Mediterranean-inspired loaf combines briny Kalamata olives with fresh rosemary sprigs. The dough is enriched with extra virgin olive oil, giving it a soft, aromatic crumb. The olives add a salty punch, while the rosemary imparts a fragrant, herbal note, perfect for pairing with cheese or dipping in olive oil.','img/olive-and-rosemary.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/olive-and-rosemary.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Olive and Rosemary</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM18.90</span>
+                                </div>
+                            </div>
+                            <p><span>Chewy bite and a slightly salty crust</span></p>
+                            <p class="availability"> ● Available Now</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Garlic & Herb', 'Infused with roasted garlic and a blend of herbs like thyme, oregano, and parsley, this bread delivers a robust, savory flavor. The garlic is roasted to enhance its sweetness and mixed into the dough, creating pockets of rich flavor throughout. It has a golden, crisp crust and a soft, aromatic interior.','img/garlic-and-herb.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/garlic-and-herb.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Garlic & Herb</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM16.90</span>
+                                </div>
+                            </div>
+                            <p><span>Taste savory, complemented by earthy herb</span></p>
+                            <p class="notavailability"> ● Currently Unavailable</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 menu-wrap">
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Cranberry & Walnut', 'This hearty loaf blends sweet, tart cranberries with crunchy toasted walnuts. The combination creates a balance of sweetness and earthy nuttiness, ideal for breakfast or pairing with creamy cheeses. The cranberries add a vibrant pop of flavor and color, while the walnuts provide a satisfying crunch in every bite.','img/cranberry-and-walnut.png')">
+                        <div class="menu-img img" style="background-image: url(img/cranberry-and-walnut.png);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Cranberry & Walnut</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM26.90</span>
+                                </div>
+                            </div>
+                            <p><span>Tender and moist crumb with a crunchy crust</span></p>
+                            <p class="availability"> ● Available Now</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Sun-dried Tomato & Brasil', 'This bread is a tribute to classic Italian flavors, with sun-dried tomatoes and fresh basil folded into the dough. The sun-dried tomatoes lend a tangy, concentrated sweetness, while the basil offers a fragrant, fresh taste. A touch of olive oil enhances the richness of the crumb, making it perfect for sandwiches or as an accompaniment to soups.','img/sundried-tomato-brasil.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/sundried-tomato-brasil.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Sun-dried Tomato & Brasil</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM24.90</span>
+                                </div>
+                            </div>
+                            <p><span>Sweet and soft, slightly chewy with a rustic crust.</span></p>
+                            <p class="availability"> ● Available Now</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Cheddar & Jalapeño', 'A savory loaf with a kick, featuring sharp cheddar cheese and sliced jalapeños. The cheese melts into the dough, creating pockets of creamy, salty goodness, while the jalapeños add a mild heat that builds with each bite. This bread has a soft, moist crumb and is perfect for those who enjoy a bit of spice.','img/cheddar-and-jalapeno.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/cheddar-and-jalapeno.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Cheddar & Jalapeño</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM32.90</span>
+                                </div>
+                            </div>
+                            <p><span>Chewy with a moist, airy crumb and a crunchy crust</span></p>
+                            <p class="availability"> ● Available Now</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 menu-wrap">
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Fig & Anise', 'This unique loaf combines sweet dried figs with the warm, licorice-like notes of anise seeds. The figs are chopped and soaked before being folded into the dough, ensuring a tender texture and a burst of sweetness. The anise adds a subtle aromatic twist, making this bread a delightful choice for breakfast or with a cup of tea.','img/fig-and-fennel.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/fig-and-fennel.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Fig & Anise</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM28.90</span>
+                                </div>
+                            </div>
+                            <p><span>Giving a slightly sweet and aromatic finish.</span></p>
+                            <p class="notavailability"> ● Currently Unavailable</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Pumpkin Spice', 'A seasonal favorite, this loaf features a blend of pumpkin puree and warming spices like cinnamon, nutmeg, and cloves. The pumpkin adds moisture and a natural sweetness to the bread, while the spices evoke the cozy flavors of autumn. A sprinkle of pumpkin seeds on top provides a crunchy contrast to the soft, spiced crumb.','img/Pumpkin-Spice-Sourdough-Bread-Crust.jpg')">
+                        <div class="menu-img img"
+                            style="background-image: url(img/Pumpkin-Spice-Sourdough-Bread-Crust.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Pumpkin Spice</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM21.90</span>
+                                </div>
+                            </div>
+                            <p><span>Warm, sweet, and spiced notes</span></p>
+                            <p class="availability"> ● Available Now</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Charcoal & Black Sesames', 'With a striking black crumb, this loaf is made with activated charcoal and nutty black sesame seeds. The charcoal gives it a mild earthy flavor, while the sesame seeds add a deep, toasty aroma and a pleasant crunch. The result is a visually unique and subtly flavored bread, perfect for those seeking something different.','img/charcoal-sourdough.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/charcoal-sourdough.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Charcoal & Black Sesames</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM30.90</span>
+                                </div>
+                            </div>
+                            <p><span>Mildly earthy from the charcoal</span></p>
+                            <p class="availability"> ● Available Now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Popup Menu -->
+        <div id="popup" class="popup" style="display: none;">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+
+                <h3 id="popup-title"></h3>
+
+                <div class="popup-body">
+                    <img id="popup-image" src="" alt="Popup_Image">
+                    <p id="popup-description"></p>
+                </div>
+
+
+                <div class="addToCart">
+                    <input type="button" value="Add to Cart" class="add-to-cart">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- menu section ends -->
+        <p class="all-menu-description ftco-animate">
+            <span>Sourdough Bread</span><br>
+            Our handcrafted sourdough is made using a traditional natural starter, allowing the dough to ferment and
+            develop its signature depth of flavor. Each loaf takes time, patience, and care, resulting in a beautiful
+            balance of a crisp, caramelized crust and a soft, chewy crumb with a delightful tang.
+
+            This natural fermentation process not only gives our sourdough its unique taste but also makes it easier to
+            digest, as the slow fermentation helps break down gluten. It’s a wholesome choice for those seeking a
+            delicious, all-natural bread experience.
+
+            Enjoy it fresh from the oven or toast a slice to enjoy with butter, jam, or your favorite savory toppings.
+            Pair it with soups, create the perfect sandwich, or simply enjoy it on its own—the versatility of our
+            sourdough makes it a must-have in any kitchen.
+        </p>
+    </main>
+    <!-- menu section ends -->
+
+    <!-- footer section starts -->
+    <section class="ftco-footer ftco-bg-dark ftco-section ftco-animate">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">PP Bakery</h2>
+                        <p>At PP Bakery, we are committed to sustainability in every step of our baking process. We
+                            prioritize using organic ingredients, which are better for both our customers and the
+                            environment. By partnering with local farmers, we ensure that our products are fresh while
+                            supporting our community. Additionally, we strive to minimize food waste through careful
+                            planning and creative use of ingredients, so that every loaf and pastry is made with care
+                            and responsibility.
+                            <br><br><br>
+                            PPBakery@gmail.com
+                            <br>
+                            07-2309 4763
+                        </p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Open Hours</h2>
+                        <ul class="list-unstyled open-hours">
+                            <li class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li>
+                            <li class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li>
+                            <li class="d-flex"><span>Sunday</span><span> 9:00 - 02:00</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Instagram's Posts</h2>
+                        <div class="thumb d-sm-flex">
+                            <a href="#" class="thumb-menu img" style="background-image: url(img/baguette.jpg);"></a>
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(img/bread-making-ultimate-guide_1200x1200.jpg);"></a>
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(img/product2\(test\).jpg);"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Newsletter</h2>
+                        <p>To get Breads and other catalogue every month by subscribing below.</p>
+                        <form action="#" class="subscribe-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-4 text-center"
+                                    placeholder="patrickkkkk@gmail.com">
+                                <input type="submit" value="Subscribe" class="btn-contact submit px-3">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright &copy; 2022-2024 PP Bakery<br>
+        </footer>
+
+        <!-- Wave Animation Divs -->
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </section>
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+    <!-- scripts-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="main.js"></script>
+
+
+
+</body>
+
+</html>

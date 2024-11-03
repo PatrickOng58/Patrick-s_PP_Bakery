@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="css/flaticon.min.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/ionicons-core.min.css">
+    <link rel="stylesheet" href="css/ionicons-core.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title> PP Bakery 🥐 🥖 🍞</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <!-- Navigation starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/PP_Bakery_Website_Logo_news.png" alt="PP_Bakery_Logo">
+            </a>
+            <button class="navbar-toggler" type="button" id="menuIcon">
+                <span class="fas fa-bars"></span>
+            </button>
+            <div class="navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="team.html" class="nav-link">Our Team</a></li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Our Breads</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sourdough.html">Sourdough</a></li>
+                            <li><a class="dropdown-item active" href="wholegrain.html">Whole Grain Series</a></li>
+                            <li><a class="dropdown-item" href="sweetpastries.html">Sweet Pastries</a></li>
+                            <li><a class="dropdown-item" href="specialtyItems.html">Specialty Items</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="allmenu.html">All Breads</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="location.html" class="nav-link">Find Us</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item cta"><a href="order.html" class="nav-link">Special Orders</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navigation ends -->
+
+    <!-- menu section starts -->
+    <main class="ftco-section" id="menu">
+        <div class="container-fluid px-4">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <div class="menu-heading"><span>Whole</span> Grain</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 menu-wrap">
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Classic Whole Wheat', 'Made with 100% whole wheat flour, this loaf has a nutty, rich flavor and a slightly dense crumb. The whole grains provide a hearty, chewy texture, while a touch of honey or molasses balances the natural earthiness with a hint of sweetness. Perfect for sandwiches or toasting, it offers a wholesome and satisfying bite.','img/whole-grain-bread.png')">
+                        <div class="menu-img img" style="background-image: url(img/whole-grain-bread.png);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Classic Whole Wheat</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM19.90</span>
+                                </div>
+                            </div>
+                            <p><span>Dense, nutty, slightly sweet, great for sandwiches.</span></p>
+                            <p class="availability"> ● Available Now</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Multigrain Bread', 'A blend of whole wheat, barley, millet, and flaxseed gives this bread a diverse texture and flavor profile. Each grain adds its own distinct notes, from the nuttiness of flaxseed to the light sweetness of millet. The result is a hearty, moist crumb with a slightly crunchy exterior, making it ideal for those seeking a nutritious, fiber-rich option.','img/multigrain-loaf.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/multigrain-loaf.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Multigrain Bread</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM18.90</span>
+                                </div>
+                            </div>
+                            <p><span>Hearty, chewy, with a nutty crunch from grains.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Rye Bread', 'Made with a mix of whole grain rye flour and a touch of caraway seeds, this bread has a dense, moist texture and a deep, earthy flavor. The caraway seeds add a subtle spice that complements the naturally robust taste of rye. A long fermentation process develops its signature tang, making it perfect for pairing with savory toppings or classic deli meats.','img/Rye-Bread.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/Rye-Bread.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Rye Bread</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM20.90</span>
+                                </div>
+                            </div>
+                            <p><span>Dense, earthy, with a hint of sourness.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 menu-wrap">
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Spelt Bread', 'Spelt flour gives this loaf a slightly sweet, nutty flavor with a tender crumb. Known for being more digestible than modern wheat, spelt flour imparts a light and airy texture while still providing whole grain benefits. The dough is enriched with a touch of olive oil, resulting in a soft, moist interior that pairs well with both sweet and savory spreads.','img/spelt-bread.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/spelt-bread.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Spelt Bread</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM19.90</span>
+                                </div>
+                            </div>
+                            <p><span>Light, airy, slightly sweet, and nutty.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Oatmeal Bread', 'This comforting loaf combines whole wheat flour with rolled oats for a soft, hearty texture. The oats are soaked before mixing into the dough, which adds moisture and a subtle creaminess to the crumb. The bread is slightly sweetened with honey, and its tender, slightly chewy texture makes it perfect for breakfast toast or sandwiches.','img/Oatmeal-Bread.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/Oatmeal-Bread.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Oatmeal Bread</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM16.90</span>
+                                </div>
+                            </div>
+                            <p><span>Soft, moist, with gentle sweetness from oats.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Quinoa Bread', 'Packed with protein-rich quinoa, this bread is made with a blend of whole wheat flour and cooked quinoa, adding a soft, delicate texture. The quinoa lends a mild, nutty flavor, and the loaf is lightly sweetened with a touch of agave or honey. It’s a great option for those seeking a nutritious, protein-boosted bread that still feels light and airy.','img/Quinoa-Bread.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/Quinoa-Bread.jpg);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Quinoa Bread</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM27.90</span>
+                                </div>
+                            </div>
+                            <p><span>Soft, slightly dense, nutty flavor with a crunch.</span></p>
+                            <p class="notavailability"> ● Currently Unavailable</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 menu-wrap">
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Buckwheat Bread', 'Buckwheat flour gives this loaf a rich, earthy flavor with a slightly dense crumb. The dough includes a blend of whole wheat and buckwheat flour, creating a balance between the distinct, robust taste of buckwheat and the softness of wheat. Ideal for those looking for a gluten-friendly option with a hearty taste, this bread pairs well with savory toppings.','img/buckwheat-bread.png')">
+                        <div class="menu-img img" style="background-image: url(img/buckwheat-bread.png);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Buckwheat Bread</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM23.90</span>
+                                </div>
+                            </div>
+                            <p><span>Dense, earthy, with a slightly gritty texture.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Seeded Whole Grain', 'This loaf is packed with a variety of seeds, including sunflower, flax, chia, and pumpkin seeds, providing a satisfying crunch in every bite. Made with whole wheat flour, the bread has a nutty, rich flavor, with each seed contributing its own unique taste and texture. The seeds are toasted before being mixed into the dough, enhancing their flavor and adding a delightful crunch.','img/seeded-whole-grain-bread.jpg')">
+                        <div class="menu-img img" style="background-image: url(img/seeded-whole-grain-bread.jpg);">
+                        </div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Seeded Whole Grain</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM26.90</span>
+                                </div>
+                            </div>
+                            <p><span>Crunchy crust, soft interior, rich, nutty flavor.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate"
+                        onclick="showPopup('Barley Bread', 'Made with whole barley flour and a touch of honey, this bread has a slightly sweet, malty flavor and a soft, tender crumb. Barley’s naturally low gluten content gives the loaf a light, airy texture, while the addition of whole wheat flour ensures a balanced structure. The result is a versatile, flavorful bread with a gentle sweetness that complements both savory and sweet toppings.','img/barley-bread.png')">
+                        <div class="menu-img img" style="background-image: url(img/barley-bread.png);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Barley Bread</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">RM22.90</span>
+                                </div>
+                            </div>
+                            <p><span>Soft, chewy, mild sweetness, perfect for soups.</span></p>
+                            <p class="availability"> ● Available Now</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popup Menu -->
+        <div id="popup" class="popup" style="display: none;">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+
+                <h3 id="popup-title"></h3>
+
+                <div class="popup-body">
+                    <img id="popup-image" src="" alt="Popup Image">
+                    <p id="popup-description"></p>
+                </div>
+
+
+                <div class="addToCart">
+                    <input type="button" value="Add to Cart" class="add-to-cart">
+                </div>
+            </div>
+        </div>
+
+
+        <p class="all-menu-description ftco-animate"><span>Whole Grain Bread</span><br>
+            Our Whole Grain Bread is a hearty, nutritious loaf crafted with a blend of wholesome grains for a rich,
+            earthy flavor. Packed with fiber, vitamins, and minerals, this loaf offers a slightly nutty taste and a soft
+            yet chewy texture. It’s perfect for sandwiches, toast, or enjoying with a spread of butter or jam. Whether
+            you're looking for a nourishing breakfast or a satisfying snack, our whole grain bread makes every bite a
+            deliciously wholesome choice. Baked fresh daily at PP Bakery for maximum freshness and flavor.
+        </p>
+    </main>
+    <!-- menu section ends -->
+
+
+
+    <!-- footer section starts -->
+    <section class="ftco-footer ftco-bg-dark ftco-section ftco-animate">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">PP Bakery</h2>
+                        <p>At PP Bakery, we are committed to sustainability in every step of our baking process. We
+                            prioritize using organic ingredients, which are better for both our customers and the
+                            environment. By partnering with local farmers, we ensure that our products are fresh while
+                            supporting our community. Additionally, we strive to minimize food waste through careful
+                            planning and creative use of ingredients, so that every loaf and pastry is made with care
+                            and responsibility.
+                            <br><br><br>
+                            PPBakery@gmail.com
+                            <br>
+                            07-2309 4763
+                        </p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Open Hours</h2>
+                        <ul class="list-unstyled open-hours">
+                            <li class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li>
+                            <li class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li>
+                            <li class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li>
+                            <li class="d-flex"><span>Sunday</span><span> 9:00 - 02:00</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Instagram's Posts</h2>
+                        <div class="thumb d-sm-flex">
+                            <a href="#" class="thumb-menu img" style="background-image: url(img/baguette.jpg);"></a>
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(img/bread-making-ultimate-guide_1200x1200.jpg);"></a>
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(img/product2\(test\).jpg);"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Newsletter</h2>
+                        <p>To get Breads and other catalogue every month by subscribing below.</p>
+                        <form action="#" class="subscribe-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-4 text-center"
+                                    placeholder="patrickkkkk@gmail.com">
+                                <input type="submit" value="Subscribe" class="btn-contact submit px-3">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright &copy; 2022-2024 PP Bakery<br>
+        </footer>
+
+        <!-- Wave Animation Divs -->
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </section>
+    <!-- footer section ends -->
+
+
+    <!-- scripts-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
